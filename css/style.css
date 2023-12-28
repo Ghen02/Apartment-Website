@@ -227,28 +227,6 @@
     z-index: 1;
 }
 
-
-/*** Category ***/
-.cat-item div {
-    background: #FFFFFF;
-    border: 1px dashed rgba(0, 185, 142, .3);
-    transition: .5s;
-}
-
-.cat-item:hover div {
-    background: var(--primary);
-    border-color: transparent;
-}
-
-.cat-item div * {
-    transition: .5s;
-}
-
-.cat-item:hover div * {
-    color: #FFFFFF !important;
-}
-
-
 /*** Property List ***/
 .nav-pills .nav-item .btn {
     color: var(--dark);
